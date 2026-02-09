@@ -1,6 +1,6 @@
 services:
   s3app:
-    image: nginx:alpine
+    image: prawee/strapi:latest
 
     container_name: 68-s3-app
     restart: unless-stopped
